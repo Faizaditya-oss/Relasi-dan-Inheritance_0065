@@ -50,6 +50,15 @@ void dokter :: cetakPasien() {
     for (auto& a : daftar_pasien) {
         cout << a->nama << "\n";
     }
- 
+    cout << endl;
+}
+
+int main() {
+    dokter* varDokter1 = new dokter("dr.Budi");
+    dokter* varDokter2 = new dokter("dr.Tono");
+    pasien* varPasien1 = new pasien("Andi");
+    pasien* varPasien2 = new pasien("Lia");
+
+   
 
 }
