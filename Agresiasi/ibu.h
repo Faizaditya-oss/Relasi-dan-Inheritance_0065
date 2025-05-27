@@ -9,8 +9,14 @@ class ibu {
         ibu(string pNama); nama(pNama){
             cout << "ibu \"" << nama << "\"ada\n";
         }
-        
-}
+        ~ibu() {
+            cout << "ibu \ "" << nama << "\" ada\n"; 
+        }
+
+        void tambahAnak(anak*);
+        void cetakAnak();
+};
+
   
 
 
