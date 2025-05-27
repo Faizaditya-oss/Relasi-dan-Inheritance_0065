@@ -23,6 +23,5 @@ class pelajar : public orang {
 public:
     string sekolah;
 
-
-}
+    pelajar(string pNama, string pSekolah) : 
 
