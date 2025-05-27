@@ -8,3 +8,6 @@ using namespace std;
 #include "manusia.h"
 
 int main()
+{
+    manusia *varManusia = new manusia("Markus");
+}
