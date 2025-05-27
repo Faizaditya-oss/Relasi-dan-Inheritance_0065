@@ -10,6 +10,6 @@ class anak{
 
         ~anak(){
             cout << "Anak \"" << nama << "\" tidak ada\n";
-        }
+        } // Last
 };
 #endif
